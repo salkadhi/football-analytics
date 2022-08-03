@@ -85,3 +85,19 @@
 | 32 | 3764440 | 2021-02-24 | 19:00:00.000 | Spain - La Liga | 2020/2021 | Barcelona | Elche | 3 | 0 | available | ... | 2021-07-26T15:28:42.810666 | 1 | Regular Season | Camp Nou | Isidro Díaz de Mera Escuderos | Ronald Koeman | Francisco Escriba Segura | 1.1.0 | 2 | 2 |
 | 33 | 3773689 | 2021-04-25 | 16:15:00.000 | Spain - La Liga | 2020/2021 | Villarreal | Barcelona | 1 | 2 | available | ... | 2021-07-27T01:21:50.389449 | 32 | Regular Season | Estadio de la Cerámica | Carlos del Cerro Grande | Unai Emery Etxegoien | Ronald Koeman | 1.1.0 | 2 | 2 |
 | 34 | 3773477 | 2020-11-07 | 16:15:00.000 | Spain - La Liga | 2020/2021 | Barcelona | Real Betis | 5 | 2 | available | ... | 2021-07-27T01:56:50.756651 | 9 | Regular Season | Camp Nou | NaN | Ronald Koeman | Manuel Luis Pellegrini Ripamonti | 1.1.0 | 2 | 2 |
+
+#Match event data from match_id == 3773369 in the above table
+| ball_receipt_outcome | ball_recovery_recovery_failure | block_deflection | block_offensive | carry_end_location | clearance_aerial_won | clearance_body_part | clearance_head | clearance_left_foot | clearance_other | ... | shot_statsbomb_xg | shot_technique | shot_type | substitution_outcome | substitution_replacement | tactics | team | timestamp | type | under_pressure |  |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| 0 | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | ... | NaN | NaN | NaN | NaN | NaN | {'formation': 3421, 'lineup': [{'player': {'id... | Barcelona | 00:00:00.000 | Starting XI | NaN |
+| 1 | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | ... | NaN | NaN | NaN | NaN | NaN | {'formation': 352, 'lineup': [{'player': {'id'... | Huesca | 00:00:00.000 | Starting XI | NaN |
+| 2 | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | ... | NaN | NaN | NaN | NaN | NaN | NaN | Huesca | 00:00:00.000 | Half Start | NaN |
+| 3 | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | ... | NaN | NaN | NaN | NaN | NaN | NaN | Barcelona | 00:00:00.000 | Half Start | NaN |
+| 4 | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | ... | NaN | NaN | NaN | NaN | NaN | NaN | Barcelona | 00:00:00.000 | Half Start | NaN |
+| ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
+| 4801 | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | ... | NaN | NaN | NaN | NaN | NaN | {'formation': 3511, 'lineup': [{'player': {'id... | Huesca | 00:22:29.142 | Tactical Shift | NaN |
+| 4802 | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | ... | NaN | NaN | NaN | NaN | NaN | {'formation': 3421, 'lineup': [{'player': {'id... | Barcelona | 00:24:19.938 | Tactical Shift | NaN |
+| 4803 | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | ... | NaN | NaN | NaN | NaN | NaN | {'formation': 3511, 'lineup': [{'player': {'id... | Huesca | 00:32:54.863 | Tactical Shift | NaN |
+| 4804 | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | ... | NaN | NaN | NaN | NaN | NaN | {'formation': 3511, 'lineup': [{'player': {'id... | Huesca | 00:33:20.116 | Tactical Shift | NaN |
+| 4805 | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | ... | NaN | NaN | NaN | NaN | NaN | {'formation': 3511, 'lineup': [{'player': {'id... | Huesca | 00:34:14.928 | Tactical Shift | NaN |
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
