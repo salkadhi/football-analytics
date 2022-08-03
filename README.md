@@ -46,7 +46,7 @@
 |            39 |        72 |           30 |            International |       Women's World Cup |            female |                     False |        True |          2019 | 2022-07-13T20:21:27.033445 |    2021-06-13T16:17:31.694 |                       None | 2022-07-13T20:21:27.033445 |
 
 
-## Calling competition_id=11, season_id=90 from statsbombpy
+## Calling competition_id=11, season_id=90 to see a single season from statsbombpy
 
 | match_id | match_date | kick_off | competition | season | home_team | away_team | home_score | away_score | match_status | ... | last_updated_360 | match_week | competition_stage | stadium | referee | home_managers | away_managers | data_version | shot_fidelity_version | xy_fidelity_version |  |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
@@ -86,7 +86,7 @@
 | 33 | 3773689 | 2021-04-25 | 16:15:00.000 | Spain - La Liga | 2020/2021 | Villarreal | Barcelona | 1 | 2 | available | ... | 2021-07-27T01:21:50.389449 | 32 | Regular Season | Estadio de la Cerámica | Carlos del Cerro Grande | Unai Emery Etxegoien | Ronald Koeman | 1.1.0 | 2 | 2 |
 | 34 | 3773477 | 2020-11-07 | 16:15:00.000 | Spain - La Liga | 2020/2021 | Barcelona | Real Betis | 5 | 2 | available | ... | 2021-07-27T01:56:50.756651 | 9 | Regular Season | Camp Nou | NaN | Ronald Koeman | Manuel Luis Pellegrini Ripamonti | 1.1.0 | 2 | 2 |
 
-## Calling match_id=3773369 to see match event data from statsbombpy
+## Calling match_id=3773369 to see a single match's event data from statsbombpy
 | ball_receipt_outcome | ball_recovery_recovery_failure | block_deflection | block_offensive | carry_end_location | clearance_aerial_won | clearance_body_part | clearance_head | clearance_left_foot | clearance_other | ... | shot_statsbomb_xg | shot_technique | shot_type | substitution_outcome | substitution_replacement | tactics | team | timestamp | type | under_pressure |  |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
 | 0 | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | ... | NaN | NaN | NaN | NaN | NaN | {'formation': 3421, 'lineup': [{'player': {'id... | Barcelona | 00:00:00.000 | Starting XI | NaN |
