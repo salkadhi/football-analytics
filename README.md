@@ -133,3 +133,19 @@ Index(['ball_receipt_outcome', 'ball_recovery_recovery_failure',
 ## Match Events Dictionary
 
 [Link to pdf](https://github.com/salkadhi/football-analytics/blob/main/Open%20Data%20Events%20v4.0.0.pdf)
+
+## Player valuations in La Liga Scraped From Transfermarket
+
+| comp_name | region | country | season_start_year | squad | player_num | player_name | player_position | player_dob | player_age | player_nationality | current_club | player_height_mtrs | player_foot | date_joined | joined_from | contract_expiry | player_market_value_euro | player_url |  |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| 0 | LaLiga | Europe | Spain | 2020 | FC Barcelona | 1 | Marc-André ter Stegen | Goalkeeper | 1992-04-30 | 29.0 | Germany | FC Barcelona | 1.87 | right | 2014-07-01 | Borussia Mönchengladbach | 2025-06-30 | 60000000.0 | https://www.transfermarkt.com/marc-andre-ter-s... |
+| 1 | LaLiga | Europe | Spain | 2020 | FC Barcelona | 13 | Neto | Goalkeeper | 1989-07-19 | 31.0 | Brazil | FC Barcelona | 1.90 | right | 2019-07-01 | Valencia CF | 2023-06-30 | 6000000.0 | https://www.transfermarkt.com/neto/profil/spie... |
+| 2 | LaLiga | Europe | Spain | 2020 | FC Barcelona | 25 | Iñaki Peña | Goalkeeper | 1999-03-02 | 22.0 | Spain | FC Barcelona | 1.84 | right | 2022-01-30 | FC Barcelona B | 2023-06-30 | 3000000.0 | https://www.transfermarkt.com/inaki-pena/profi... |
+| 3 | LaLiga | Europe | Spain | 2020 | FC Barcelona | - | Arnau Tenas | Goalkeeper | 2001-05-30 | 20.0 | Spain | FC Barcelona Atlètic | 1.85 | right | NaN | NaN | 2023-06-30 | 1500000.0 | https://www.transfermarkt.com/arnau-tenas/prof... |
+| 4 | LaLiga | Europe | Spain | 2020 | FC Barcelona | - | Clément Lenglet | Centre-Back | 1995-06-17 | 26.0 | France | Tottenham Hotspur | 1.86 | left | 2018-07-12 | Sevilla FC | 2023-06-30 | 25000000.0 | https://www.transfermarkt.com/clement-lenglet/... |
+| ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
+| 728 | LaLiga | Europe | Spain | 2020 | Elche CF | - | Claudio Medina | Centre-Forward | 1993-09-04 | 27.0 | Spain | Cultural Leonesa | 1.86 | left | 2018-07-24 | Sporting de Gijón B | 2024-06-30 | 350000.0 | https://www.transfermarkt.com/claudio-medina/p... |
+| 729 | LaLiga | Europe | Spain | 2020 | Elche CF | - | Nino | Centre-Forward | 1980-06-10 | 41.0 | Spain | NaN | 1.69 | right | 2016-08-19 | CA Osasuna | NaN | 100000.0 | https://www.transfermarkt.com/nino/profil/spie... |
+| 730 | LaLiga | Europe | Spain | 2020 | Elche CF | - | Mourad El Ghezouani | Centre-Forward | 1998-05-27 | 23.0 | Morocco | Elche CF | 1.89 |  | 2020-07-01 | Elche Ilicitano | 2023-06-30 | 100000.0 | https://www.transfermarkt.com/mourad-el-ghezou... |
+| 731 | LaLiga | Europe | Spain | 2020 | Elche CF | - | Diego Bri | Centre-Forward | 2002-09-12 | 18.0 | Spain | Atlético de Madrid B | NaN |  | NaN | NaN | 2026-06-30 | NaN | https://www.transfermarkt.com/diego-bri/profil... |
+| 732 | LaLiga | Europe | Spain | 2020 | Elche CF | - | Cheikh Diamanka | Centre-Forward | 2001-01-20 | 20.0 | Spain | Elche Ilicitano | NaN |  | NaN | NaN | 2022-06-30 | NaN | https://www.transfermarkt.com/cheikh-diamanka/... |
