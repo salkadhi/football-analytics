@@ -129,3 +129,7 @@ Index(['ball_receipt_outcome', 'ball_recovery_recovery_failure',
        'shot_type', 'substitution_outcome', 'substitution_replacement',
        'tactics', 'team', 'timestamp', 'type', 'under_pressure'],
       dtype='object')
+
+## Match Events Dictionary
+
+[Link to pdf](https://github.com/salkadhi/football-analytics/blob/main/Open%20Data%20Events%20v4.0.0.pdf)
