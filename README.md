@@ -1,6 +1,6 @@
 # Football Analytics
 
-## All free competitions from statsbombpy
+## Calling all available competitions from statsbombpy
 
 | ompetition_id | season_id | country_name |         competition_name |      competition_gender | competition_youth | competition_international | season_name | match_updated |          match_updated_360 |        match_available_360 |            match_available |                            |
 |--------------:|----------:|-------------:|-------------------------:|------------------------:|------------------:|--------------------------:|------------:|--------------:|---------------------------:|---------------------------:|---------------------------:|----------------------------|
@@ -46,7 +46,7 @@
 |            39 |        72 |           30 |            International |       Women's World Cup |            female |                     False |        True |          2019 | 2022-07-13T20:21:27.033445 |    2021-06-13T16:17:31.694 |                       None | 2022-07-13T20:21:27.033445 |
 
 
-## Selecting a single season from statsbombpy
+## Calling competition_id=11, season_id=90 from statsbombpy
 
 | match_id | match_date | kick_off | competition | season | home_team | away_team | home_score | away_score | match_status | ... | last_updated_360 | match_week | competition_stage | stadium | referee | home_managers | away_managers | data_version | shot_fidelity_version | xy_fidelity_version |  |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
@@ -86,7 +86,7 @@
 | 33 | 3773689 | 2021-04-25 | 16:15:00.000 | Spain - La Liga | 2020/2021 | Villarreal | Barcelona | 1 | 2 | available | ... | 2021-07-27T01:21:50.389449 | 32 | Regular Season | Estadio de la Cerámica | Carlos del Cerro Grande | Unai Emery Etxegoien | Ronald Koeman | 1.1.0 | 2 | 2 |
 | 34 | 3773477 | 2020-11-07 | 16:15:00.000 | Spain - La Liga | 2020/2021 | Barcelona | Real Betis | 5 | 2 | available | ... | 2021-07-27T01:56:50.756651 | 9 | Regular Season | Camp Nou | NaN | Ronald Koeman | Manuel Luis Pellegrini Ripamonti | 1.1.0 | 2 | 2 |
 
-#Match event data from match_id == 3773369 in the above table
+## Calling match_id=3773369 to see match event data from statsbombpy
 | ball_receipt_outcome | ball_recovery_recovery_failure | block_deflection | block_offensive | carry_end_location | clearance_aerial_won | clearance_body_part | clearance_head | clearance_left_foot | clearance_other | ... | shot_statsbomb_xg | shot_technique | shot_type | substitution_outcome | substitution_replacement | tactics | team | timestamp | type | under_pressure |  |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
 | 0 | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | ... | NaN | NaN | NaN | NaN | NaN | {'formation': 3421, 'lineup': [{'player': {'id... | Barcelona | 00:00:00.000 | Starting XI | NaN |
@@ -101,3 +101,31 @@
 | 4804 | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | ... | NaN | NaN | NaN | NaN | NaN | {'formation': 3511, 'lineup': [{'player': {'id... | Huesca | 00:33:20.116 | Tactical Shift | NaN |
 | 4805 | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | ... | NaN | NaN | NaN | NaN | NaN | {'formation': 3511, 'lineup': [{'player': {'id... | Huesca | 00:34:14.928 | Tactical Shift | NaN |
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+##  Match event columns
+Index(['ball_receipt_outcome', 'ball_recovery_recovery_failure',
+       'block_deflection', 'block_offensive', 'carry_end_location',
+       'clearance_aerial_won', 'clearance_body_part', 'clearance_head',
+       'clearance_left_foot', 'clearance_other', 'clearance_right_foot',
+       'counterpress', 'dribble_nutmeg', 'dribble_outcome', 'dribble_overrun',
+       'duel_outcome', 'duel_type', 'duration', 'foul_committed_advantage',
+       'foul_committed_card', 'foul_committed_penalty', 'foul_won_advantage',
+       'foul_won_defensive', 'foul_won_penalty', 'goalkeeper_body_part',
+       'goalkeeper_end_location', 'goalkeeper_outcome', 'goalkeeper_position',
+       'goalkeeper_technique', 'goalkeeper_type', 'id', 'index',
+       'interception_outcome', 'location', 'match_id', 'minute',
+       'miscontrol_aerial_won', 'off_camera', 'out', 'pass_aerial_won',
+       'pass_angle', 'pass_assisted_shot_id', 'pass_body_part', 'pass_cross',
+       'pass_end_location', 'pass_goal_assist', 'pass_height',
+       'pass_inswinging', 'pass_length', 'pass_miscommunication',
+       'pass_no_touch', 'pass_outcome', 'pass_outswinging', 'pass_recipient',
+       'pass_shot_assist', 'pass_straight', 'pass_switch', 'pass_technique',
+       'pass_through_ball', 'pass_type', 'period', 'play_pattern', 'player',
+       'player_id', 'position', 'possession', 'possession_team',
+       'possession_team_id', 'related_events', 'second', 'shot_aerial_won',
+       'shot_body_part', 'shot_deflected', 'shot_end_location',
+       'shot_freeze_frame', 'shot_key_pass_id', 'shot_one_on_one',
+       'shot_open_goal', 'shot_outcome', 'shot_statsbomb_xg', 'shot_technique',
+       'shot_type', 'substitution_outcome', 'substitution_replacement',
+       'tactics', 'team', 'timestamp', 'type', 'under_pressure'],
+      dtype='object')
