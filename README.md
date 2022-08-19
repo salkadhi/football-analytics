@@ -1,7 +1,7 @@
 # Football Analytics
 
 ## Available Competitions From the Statsbomb Package
-[Link to CSV](https://github.com/salkadhi/football-analytics/blob/main/competitions.csv)
+[Link to CSV](https://github.com/salkadhi/football-analytics/blob/main/data/competitions.csv)
 
 ## Calling a Specific Season (La Liga 20/21) From the Statsbomb Package
 [Link to CSV](https://github.com/salkadhi/football-analytics/blob/main/matches.csv)
@@ -10,7 +10,7 @@
 [Link to CSV](https://github.com/salkadhi/football-analytics/blob/main/events.csv)
 
 ## Match Events Dictionary From Official Documentaion
-[Link to pdf](https://github.com/salkadhi/football-analytics/blob/main/Open%20Data%20Events%20v4.0.0.pdf)
+[Link to pdf](https://github.com/salkadhi/football-analytics/blob/main/specs/Open%20Data%20Events%20v4.0.0.pdf)
 
 ## Player Valuations in La Liga (20/21) Scraped From Transfermarket
 [Link to CSV](https://github.com/salkadhi/football-analytics/blob/main/valuations.csv)
