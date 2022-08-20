@@ -1,5 +1,7 @@
 # Football Analytics
 
+## HTML Jupyter Notebook
+[Link](https://salkadhi.github.io/football-analytics/)
 ## Available Competitions From the Statsbomb Package
 [Link to CSV](https://github.com/salkadhi/football-analytics/blob/main/data/competitions.csv)
 
