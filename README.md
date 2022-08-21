@@ -48,3 +48,10 @@ Recently, machine learning algorithms have been published to help quantify the a
 | 18 | Clearance         | Player clearance                                  |
 | 20 | Dribble           | Player dribbles at   least 3 meters with the ball |
 | 21 | Goal kick         | Goal kick                                         |
+
+## References
+https://github.com/ML-KULeuven/socceraction
+
+Actions speak louder than goals: Valuing player actions in soccer. T Decroos, L Bransen, J Van Haaren. - Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining. 2019 
+
+Valuing on-the-ball actions in soccer: a critical comparison of XT and VAEP. Maaike Van Roy, Pieter Robberechts, Tom Decroos, Jesse Davis. In Proceedings of the AAAI-20 Workshop on Artifical Intelligence in Team Sports. AI in Team Sports Organising Committee. 2020.
