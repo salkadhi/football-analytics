@@ -9,7 +9,7 @@ Recently, machine learning algorithms have been published to help quantify the a
 ## HTML Jupyter Notebook
 [Link](https://salkadhi.github.io/football-analytics/)
 
-## Converted Action Events Using SPADL Format
+## SPADL Attributes
 | team_id      | a unique identifier of the team who performed the action                         |
 |--------------|----------------------------------------------------------------------------------|
 | player_id    | a unique identifier of the player who performed the action                       |
@@ -24,7 +24,7 @@ Recently, machine learning algorithms have been published to help quantify the a
 | end_x        | the x coordinate for the location where the action ended, ranges from 0 to 105   |
 | end_y        | the y coordinate for the location where the action ended, ranges from 0 to 68    |
 
-## SPADL Action Type Definitions
+## SPADL Actions
 |    Action type    |                   Description                   |        Success?        |   Special result   |
 |:-----------------:|:-----------------------------------------------:|:----------------------:|:------------------:|
 | Pass              | Normal pass in open play                        | Reaches teammate       | Offside            |
